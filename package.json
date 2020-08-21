@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-tdd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Santiago Cardona",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^26.4.1"
+  },
+  "dependencies": {
+    "axios": "^0.20.0",
+    "express": "^4.17.1"
+  }
+}
