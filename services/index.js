@@ -3,9 +3,9 @@
 const axios = require('axios')
 
 const userHandlers = require('./users')
-
-const userServices = userHandlers({ axios })
+const postsHandlers = require('./posts')
 
 module.exports = {
-  userServices
+  userServices: userHandlers({ axios }),
+  postsServices: postsHandlers({ axios }),
 }
